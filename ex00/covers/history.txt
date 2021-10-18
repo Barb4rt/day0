@@ -1,0 +1,418 @@
+sudo apt install python~
+sudo apt install python3
+sudo apt install pip3
+sudo apt install pip
+sudo apt update && sudo apt install codium 
+sudo apt update1
+wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg | gpg --dearmor | sudo dd of=/usr/share/keyrings/vscodium-archive-keyring.gpg 
+echo 'deb [ signed-by=/usr/share/keyrings/vscodium-archive-keyring.gpg ] https://paulcarroty.gitlab.io/vscodium-deb-rpm-repo/debs vscodium main' | sudo tee /etc/apt/sources.list.d/vscodium.list 
+sudo apt update && sudo apt install codium
+ipconfig
+ls
+cd Bureau/
+mkdir test
+ls
+ll
+tls
+ls
+cd test/
+touch test.py
+ls
+sudo apt install vim
+sudo apt install virtuelenv
+cd./
+cd ../
+mkdir journal_apprentissage
+CD
+cd
+ls
+cd Bureau/
+ls
+cd journal_apprentissage/
+python3 -m venv ja_env
+apt install python3.8-venv
+sudo apt install python3.8-venv
+python3 -m venv ja_env
+ls
+cd ja_env/
+ls
+cd bin
+ls
+. ./activate
+pip install django
+django-admin startproject journal_apprentissage .
+ls
+ls journal_apprentissage/
+ls
+cd journal_apprentissage/
+ls
+vim settings.py 
+ls
+cd ./
+ls
+cd ../
+ls
+cd ../
+ls
+cd ../
+ls
+cd ../
+ls
+cd journal_apprentissage/
+ls
+ls ja_env/
+cd ../*
+cd ../
+ls
+rm journal_apprentissage/
+cd /etc/laptop-mode/conf.d
+ls
+vim intel-hda-powersave.conf
+sudo vim intel-hda-powersave.conf
+sudo vim intel-sata-powermgmt.conf 
+xrandr
+sudo vim eee-superhe.conf 
+sudo apt install powertop
+sudo powertop
+cd /etc/laptop-mode/laptop-mode.conf
+cd /etc/laptop-mode/
+ls
+sudo vim laptop-mode.conf 
+cd etc/laptop-mode/laptop-mode.conf
+cd etc/laptop-mode/
+ls
+cd /etc/laptop-mode/
+vim laptop-mode.conf 
+sudo purge laptop-mode 
+sudo apt remove laptop-mode-tools
+ls
+cd ../
+sudo apt install laptop-mode-tools
+cd /etc/laptop-mode/
+vim laptop-mode.conf 
+sudo vim laptop-mode.conf 
+ls
+cd conf.d/
+ls
+sudo vim auto-hibernate.conf
+ls
+sudo vim wireless-iwl-power.conf 
+sudo cpufreq-selector
+cpufreq-selector --version
+sudo apt install gnome-applets
+sudo cpufreq-selector
+sudo apt install cpufreq-selector
+sudo cpufreq-selector
+cpufreq-selector
+cat /sys/class/thermal/thermal_zone0/temp
+sudo sensors-detect
+sudo apt install sensors-detect
+sudo apt install lm-sensors
+sudo sensors-detect
+sudo service kmod restart
+sensors
+ls
+cd Bureau/
+mkdir JournalApprentissge
+cd JournalApprentissge/
+sensors
+man sensors.conf
+sudo apt install fancontrol
+sudo pwmconfig
+sudo fancontrol
+cd etc/
+cd /etc/
+cd /inti.d
+cd /inti.d/
+ls
+cd init.d
+ls
+cd fancontrol
+sudo vim fancontrol 
+sudo chmod +x /etc/init.d/fancontrol
+sudo service fancontrol start
+ll
+sudo service fancontrol start
+sudo remove fancontrol
+sudo rm fancontrol
+ls
+cd . ../
+cd  ../
+cd ../
+sudo apt purge fancontrol
+sudo apt install fancontrol
+sudo pwmconfig
+cd Bureau/
+python3 -m pip3 install matplotlib
+pip3 install matplotlib
+cd Bureau/
+mkdir visudonner
+cd visudonner
+touch mpl_squares.py
+sensors
+/bin/python3 -m pip install -U pylint
+/bin/python3 /home/ludwig/Bureau/visudonner/mpl_squares.py
+sudo apt install psensor
+fancontrol start
+sudo pwmconfig
+sudo chmod +x /etc/init.d/fancontrol
+sudo service fancontrol start
+pwmcontrol
+sudo pwmconfig
+sensors-detect
+sudo  sensors-detect
+sudo sencors
+sudo run sensor
+sudo run sensors
+sudo start module-init-tool
+sudo -E hw-probe -all -upload
+sudo apt  install 
+sudo apt install hw-probe 
+sudo -E hw-probe -all -upload
+python3
+python
+python3
+touch scatter_squares.py
+touch random_walkpy
+/bin/python3 /home/ludwig/Bureau/visudonner/mpl_squares.py
+/bin/python3 /home/ludwig/Bureau/visudonner/scatter_squares.py
+touch nw_visual.py
+/bin/python3 /home/ludwig/Bureau/visudonner/nw_visual.py
+ll
+/bin/python3 /home/ludwig/Bureau/visudonner/rw_visual.py
+touch die.py
+pip3 install plotly
+touch die_visual.py
+/bin/python3 /home/ludwig/Bureau/visudonner/dise/die_visual.py
+grep
+grep --help
+cd Bureau/JournalApprentissge/
+python3 -m venv je_env
+ls
+rm je_env/
+rmdir je_env/
+purge je_env/
+python3 -m venv ja_env
+. ja_env/bin/activate
+pip install django
+django-admin startproject journal_apprentissage .
+ls journal_apprentissage/
+python manage.py migrate
+python manage.py runserver
+python manage.py r startapp journal_apprentissage
+python manage.py startapp journal_apprentissage
+python manage.py runserver
+cd ../
+. ja_env/bin/activate
+python manage.py startapp journal_apprentissage
+ls 
+cd journal_apprentissage/
+ls
+python manage.py startapp journal_apprentissage
+python manage.py startapp
+cd ../
+ls
+python manage.py startapp journaux_apprentissage
+ls
+ls journaux_apprentissage/
+cd ../
+ls
+. ja_env/bin/activate
+python manage.py runserver
+. ja_env/bin/activate
+python -m venv ja_env .
+python3 -m venv ja_env .
+source /home/ludwig/Bureau/JournalApprentissge/ja_env/bin/activate
+python manage.py makemigrations journaux_apprentissage
+python3 -m pip install -U pylint
+python manage.py migrate
+python manage.py makemigrations journaux_apprentissage
+python manage.py migrate
+python createsuperuser
+python manage.py createsuperuser
+python manage.py makemigrations journaux_apprentissage
+python manage.py migrate
+python manage.py shell from journaux_apprentissage.models import Topic
+python manage.py shell from journaux_apprentissage.models import Topic Topic.object.all()
+python manage.py shell from journaux_apprentissage.models import Topic Topic.objects.all()
+python3 -m venv ja_env 
+. ja_env/bin/activate
+pip install django
+django-admin startproject journal_apprentissage
+django-admin startproject journal_apprentissage .
+python manage.py migrate
+django-admin startapp journaux_apprentissage
+cd journaux_apprentissage/
+ls
+source /home/ludwig/Bureau/JournalApprentissge/ja_env/bin/activate
+/home/ludwig/Bureau/JournalApprentissge/ja_env/bin/python /home/ludwig/Bureau/JournalApprentissge/journal_apprentissage/settings.py
+python manage.py runserver
+source /home/ludwig/Bureau/JournalApprentissge/ja_env/bin/activate
+python manage.py shell
+cd journaux_apprentissage/
+touchurls.py
+touch urls.py
+mkdir template
+cd template
+touch index;html
+touch index.html
+. ja_env/bin/activate
+python manage.py  runserver
+. ja_env/bin/activate
+python manage.py  runserver
+. ja_env/bin/activate
+python manage.py  runserver
+touch alien_invasion
+python3 -m pip3 install pygame 
+python3 -m pip install pygame 
+ls
+cd Bureau/
+ls
+cd day0-EtudiantOC/
+mkdir ex01
+touch bonjour.sh
+bash bonjour.sh
+ls
+cd ex[F
+cd ex01
+bash bonjour.sh
+cd ../
+git clone https://github.com/Barb4rt/day0.git
+git remote https://github.com/Barb4rt/day0.git
+cd day0
+cd init
+git init
+git status
+git add *
+git comit -m "exo01 terminer"
+git commit -m "exo01 terminer"
+git config --global ludwig.taeuber@gmail.com
+git commit -m "exo01 terminer"
+git config --global "ludwig.taeuber@gmail.com"
+git commit -m "exo01 terminer"
+git config --global user.email  "ludwig.taeuber@gmail.com"
+git config --global user.email "ludwig.taeuber@gmail.com"
+git commit -m "exo01 terminer"
+git push 
+ls -al/.ssh
+ls -al ~ /.ssh
+git branch
+git branch Master
+git branch
+git checkout Master
+git remote https://github.com/Barb4rt/day0.git
+git add *
+git origin Master  push 
+git push
+git push --set-upstream origin Master
+git push
+git push --set-upstream origin Master
+hystory
+history
+ls
+cd Bureau
+cd day0/ex00
+ls
+cd covers
+mkdir Constructeurs
+cd Constructeurs/
+mkdir {}
+mkdir {Sony, Nintendo, Microsoft, Sega }
+ls
+rm 
+rm --help
+rm *
+cd /
+ls
+cd Bureau/day0/ex00
+ls
+cd covers/
+ls
+rm -r Constructeurs/
+ls
+Bureau/day0/ex00
+cd Bureau/day0/ex00
+ls
+cd covers/
+mkdir Constructeur
+ls
+cd Constructeur/
+mkdir Sony Nintendo Microsoft Sega
+ls
+cd Sony/
+mkdir Consoles
+cd Consoles/
+mkdir PS4 PS5
+ls
+mv /covers
+mv ./covers
+cd ../
+ls
+mv ps4_fifa14.jpg Constructeur/Sony/PS4/
+mv ps4_fifa14.jpg Constructeur/Sony/PS4
+ls Constructeur/Sony/PS4
+ls Constructeur/Sony/PS4/
+cd Constructeur/Sony/
+ls
+cd Bureau/day0/
+mkdir ex00
+ls
+cd ex00
+cd covers/
+mkdir Constructeur
+cd Co
+cd Constructeur/
+ls
+mkdir Sony Nintendo Microsoft Sega
+ls
+mkdir -p Sony/Consoles/{PS4,PS5}
+cd S
+cd Sony/
+ls
+cd Consoles/
+ls
+cd covers
+cd ../covers
+cd ./covers
+cd /covers
+cd ~/covers
+cd ../
+cd covers/
+ls
+mv ps4_fifa14.jpg playstation_4.assassinscreedodyssey.jpg playstation_4.unchartedthelostlegacy.jpg playstation_4.watchdogs2.jpg  /Constructeur/Sony/Consoles/PS4
+mv ps4_fifa14.jpg playstation_4.assassinscreedodyssey.jpg playstation_4.unchartedthelostlegacy.jpg playstation_4.watchdogs2.jpg  /Constructeur/Sony/Consoles/PS4/
+mv ps4_fifa14.jpg playstation_4.assassinscreedodyssey.jpg playstation_4.unchartedthelostlegacy.jpg playstation_4.watchdogs2.jpg  /Constructeur/Sony/Consoles/PS4
+mv ps4_fifa14.jpg playstation_4.assassinscreedodyssey.jpg playstation_4.unchartedthelostlegacy.jpg playstation_4.watchdogs2.jpg  Constructeur/Sony/Consoles/PS4
+ls
+mv playstation_5.assassinscreedvalhalla.jpg playstation_5.farcry6.jpg playstation_5.residentevilvillage_.jpg Constructeur/Sony/Consoles/PS5
+cd
+cd Bureau/day0/ex00/covers/
+ls
+cd Constructeur/Nintendo/
+ls
+mkdir -p Consoles/Gamecube
+mkdir -p Consoles_portables/Game_Boy
+mkdir -p Consoles_portables/Game_Boy_Color
+cd ./
+cd ../
+ls
+mv gameboy.pokmonred.jpg gb_pokemonblue_eu.jpg gb_pokemongreen_3.jpg gb_pokemonyellow_au.jpg Constructeur/Nintendo/Consoles_portables/Game_Boy
+ls
+mv gbc_pokemongold.jpg Constructeur/Nintendo/Consoles_portables/Game_Boy_Color/
+ls
+mkdir -p Constructeur/Microsoft/Consoles/{Xbox,Xbox360}
+ls
+mv gc_mariokartdoubledash.jpg gc_supermariosunshine.jpg Constructeur/Nintendo/Consoles/Gamecube/
+mv xbox_deadoralive3.jpg xbox_deadtorights.jpg xbox_halo2.jpg xbox_halo_2.jpg xbox_jetsetradiofuture_2.jpg xbox_needforspeedunderground2.jpg xbox_defjamfightforny.jpg Constructeur/Microsoft/Consoles/Xbox
+ls
+mv xbox_360.fableiii.jpg x360_callofduty2.jpg x360_callofduty4.jpg x360_callfoduty3.jpg x360_callofdutyblackopsii.jpg Constructeur/Microsoft/Consoles/Xbox360/ 
+ls
+mkdir -p Constructeur/Sega/Consoles/Dreamcast
+ls
+mv dc_jetgrindradio_10.jpg dc_jetsetradio_eu_front.jpg dc_shenmue_eu.jpg dc_shenmueii_5.jpg Constructeur/Sega/Consoles/Dreamcast/
+ls
+history
+history -a
+ls
+history 
+history -w ./history.txt
